@@ -1,0 +1,54 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: right;
+}
+.text-center{
+    color: #DADFE0;
+}
+.marquee{
+    color: #DADFE0;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;}
+
+body{
+    background-image: url(images/polygon-art-simple-mountains-abstract-1920x1080-wallpaper24165.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position:relative;
+    -webkit-background-size: 100% 100;}
+
+
+.container{
+    margin-top: 100px;
+}
